@@ -4,30 +4,32 @@ import java.util.Arrays;
 
 public class SelectionSortImplementation {
 
-    /**
-     *
-     * @param array
-     */
+    public static int[] selectionSort(int[] vet) {
+        int size = vet.length;
 
-    public static void SelectionSort(int[] array) {
-        int arraySize = array.length;
-        for (int i = 0; i < arraySize; i++) {
-            int smallerIndex = i;
-            for (int j = i + 1; j < arraySize; j++) {
-                if (array[j] < array[smallerIndex]) {
-                    smallerIndex = j;
+        for (int i = 0; i < size - 1; i++) {
+            int menor = i;
+
+            for (int j = i + 1; j < size; j++) {
+                if (vet[menor] > vet[j]) {
+                    menor = j;
                 }
             }
-            int tmp = array[i];
-            array[i] = array[smallerIndex];
-            array[smallerIndex] = tmp;;
+
+            if (menor != i) {
+                int temp = vet[i];
+                vet[i] = vet[menor];
+                vet[menor] = temp;
+            }
         }
+
+        return vet;
     }
 
     public static void main(String[] args) {
         int[] array = {67, 0, -9, 15, 700, 30, -3, 2, 0, 94};
-        SelectionSort(array);
-        System.out.println(Arrays.toString(array));
+        int[] sortedArray = selectionSort(array);
+        System.out.println(Arrays.toString(sortedArray));
     }
 
 }
