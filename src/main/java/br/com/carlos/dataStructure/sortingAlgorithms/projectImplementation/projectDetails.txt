@@ -1,0 +1,68 @@
+Uma criança de 7 anos deseja criar um dicionário. Após uma leitura ele teve a ideia
+decriar um dicionário com todas as palavras que existiam no livro, ordenando estas
+palavras em ordem alfabética. Você como programador vai ajudá-lo. Você deve escrever
+um programa que liste todas as palavras que existem em um texto. Palavras com
+apenas uma letra também deverão ser consideradas. Seu programa deverá tornar tornar
+todas as palavras para minúsculo, ou seja, palavras como "Carro", "carro" ou "CARRO"
+deverão ser consideradas como "carro". Você deve implementar o algoritmo Insertion
+Sort nesse trabalho.
+Entrada
+A entrada contém no máximo 100 linhas de texto.
+Saída
+Você deve imprimir uma lista das palavras que aparecem no texto, uma palavra por
+linha. Todas as palavras devem ser impressas com letras minúsculas, em ordem
+alfabética.
+
+Entrada:
+Trabalho de estrutura de dados é muito importante para o aprendizado do aluno
+
+Saída:
+aluno
+aprendizado
+dados
+de
+de
+do
+é
+estrutura
+importante
+muito
+o
+para
+trabalho
+
+-----------------------------------------------------------------------------------------------------------------------
+English details:
+
+A 7-year-old child wishes to create a dictionary.
+After reading, they had the idea of creating a dictionary with all the words that existed in the book,
+arranging these words in alphabetical order. As a programmer, you will help them.
+You must write a program that lists all the words that exist in a text.
+Single-letter words should also be considered.
+Your program should convert all words to lowercase,
+meaning words like "Carro," "carro," or "CARRO" should be considered as "carro."
+You must implement the Insertion Sort algorithm in this task.
+
+Input:
+The input contains a maximum of 100 lines of text.
+
+Output:
+You should print a list of words that appear in the text, one word per line. All words should be printed in lowercase, in alphabetical order.
+
+Input:
+Trabalho de estrutura de dados é muito importante para o aprendizado do aluno
+
+Output:
+aluno
+aprendizado
+dados
+de
+de
+do
+é
+estrutura
+importante
+muito
+o
+para
+trabalho
