@@ -1,6 +1,4 @@
-package br.com.carlos.dataStructure.tree.test;
-
-import br.com.carlos.dataStructure.tree.TreeImplementation;
+package br.com.carlos.dataStructure.tree;
 
 import org.junit.Test;
 
